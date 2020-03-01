@@ -1,3 +1,4 @@
+
 .logo{
     display: flex;
     justify-content: space-around;
@@ -67,28 +68,38 @@
     margin-left: -8px;
     margin-right: -8px;
     height: 400px;
-    width: 1200px;
+    background-color:red;
    
 
 }
 
 .texto{
-    position: absolute;
-      color:#fff;
-      text-align: center;
-      top: 100px;
-      width: 250px;
-      line-height: 30px;
-      height: 30px;
+    position: relative;
+    color: #fff;
+    text-align: center;
+    top: 100px;
+    width: 250px;
+    line-height: 30px;
+    height: 30px;
     
-    
+}
+
+.box{
+    margin-top: -40px;
   
-    
 }
 
-.body{
-
-        display: block;
-     
+.box ul{
+ display:flex;
+ justify-content: space-around;
+ align-items: center;
+ list-style-type: none;
 }
 
+.box li{
+    width: 200px;
+    height: 110px;
+    border: 5px;
+    color: black;
+    background-color: cadetblue;
+}
